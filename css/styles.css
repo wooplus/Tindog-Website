@@ -47,6 +47,10 @@ p {
   text-align: left;
 }
 
+.col-lg-7 {
+  margin-bottom: 5%;
+}
+
 .fluid-container {
   padding: 3% 15% 0%;
 }
@@ -90,6 +94,7 @@ p {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
+  margin-left: 20%;
   /* max-width: 56%; */
   /* position: absolute; */
 }
