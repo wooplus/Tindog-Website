@@ -1,0 +1,239 @@
+:root {
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 4.5rem;
+  margin-left: 5%;
+}
+
+/* h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+} */
+
+p {
+  color: rgb(165, 165, 165);
+  font-size: 1rem;
+}
+
+#title {
+  text-align: left;
+}
+
+.fluid-container {
+  padding: 3% 15% 0%;
+}
+
+/* color sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigation bar  */
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.fa-brands {
+  margin-right: 5px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  margin-left: 10px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: rgb(191, 191, 191);
+}
+
+.btn {
+  margin-left: 5.4%;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  /* max-width: 56%; */
+  /* position: absolute; */
+}
+
+/* features section  */
+
+.feature-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  /* margin: 2%; */
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#features h3 {
+  color: rgb(52, 52, 52);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#features i {
+  /* font-size: 4rem; */
+  color: lightcoral;
+  margin-bottom: 4%;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section  */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press section  */
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section  */
+#pricing {
+  color: black;
+  padding: 100px;
+}
+
+.recommend-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.card,
+.card h2 {
+  color: black;
+}
+
+.pricing-text {
+  color: rgb(81, 80, 80);
+}
+
+#pricing .price {
+  color: black;
+  font-weight: 520;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA section  */
+
+#cta {
+  color: black;
+
+  padding: 10% 20%;
+  margin: 0% 1%;
+}
+
+.fa-google-play {
+  color: black;
+}
+
+#cta h3 {
+  color: aliceblue;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10%;
+}
+
+/* Footer Section  */
+
+#footer i {
+  color: black;
+  padding: 0.9%;
+  margin: 6% 0 0.3%;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Query Responsive */
+
+@media (max-width: 1028px) {
+  .iphone {
+    width: 60%;
+    transform: rotate(0);
+    margin: 10px 0 0 35px;
+  }
+  #title {
+    text-align: center;
+  }
+}
